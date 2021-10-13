@@ -1,0 +1,19 @@
+{
+  "background_color": "#E9E1EE",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "Typing Practice",
+  "short_name": "Typing",
+  "theme_color": "#8360CF"
+}

@@ -1,0 +1,9 @@
+# directory
+.DS_Store
+.idea
+__pycache__
+node_modules
+
+# file
+/credit.txt
+

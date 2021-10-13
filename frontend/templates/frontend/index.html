@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Typing Practice</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <!-- web icon -->
+    <link rel="icon" href="{% static 'img/favicon/favicon.ico' %}">
+    <!-- set theme color for those browsers that support it -->
+    <meta name="theme-color" content="#8360CF">
+    <meta name="manifest" content="{% static 'manifest.json' %}">
+</head>
+<body>
+<div id="main">
+    <div id="app"></div>
+</div>
+
+<script src="{% static 'frontend/main.js' %}"></script>
+</body>
+</html>
