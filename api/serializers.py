@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Todo
+from .models import TypingRecord
 
 
-class TodoSerializer(serializers.ModelSerializer):
+class TypingRecordSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Todo
-        fields = ('id', 'title',)
+        model = TypingRecord
+        fields = ['date', 'speed', 'accuracy']

@@ -1,6 +1,8 @@
-from django.urls import path
-from .views import TodoListView
+from django.urls import include, path
+
+from .views import TypingRecordViewSet
 
 urlpatterns = [
-    path('todo', TodoListView.as_view()),
+    path('scoreboard/', TypingRecordViewSet.as_view()),
+    path('api-auth/', include('rest_framework.urls')),
 ]
